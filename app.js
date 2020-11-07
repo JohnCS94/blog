@@ -36,6 +36,6 @@ app.post("/api/compose", (req, res) => {
     console.log(req.body.post);
 })
 
-app.listen(3000, function() {
+app.listen(8080, function() {
   console.log("Server started on port 3000");
 });
